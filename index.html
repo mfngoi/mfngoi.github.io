@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <!-- Used to describe the website and the data it contains, often utilized for SEO -->
+      <meta charset="UTF-8">
+      <meta name="description" content="This is a test website for Matthew">
+      <meta name="author" content="Matthew">
+      <meta name="keywords" content="HTML, Tutorial, Testing">
+      <!-- This meta data controls how the website displays on different devices -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Matthew's Website</title>
+   </head>
+   <body style="background-color:#FAEBD7">
+      <!-- This is a comment -->
+      <h1>Welcome to Matthew's Website</h1>
+      <p>Hello World!</p>
+      <br/>
+      <h2>Common Tags</h2>
+      <hr/>
+      <p>This is a paragraph</p>
+      <p>This is a bold <b>paragraph</b></p>
+      <p>This is an italic <i>paragraph</i></p>
+      <p>This is a big <big>paragraph</big></p>
+      <p>This is a small <small>paragraph</small></p>
+      <br/>
+      <h2>Superscript and Subscript</h2>
+      <hr/>
+      <p>H<sub>2</sub>O</p>
+      <p>10<sup>2</sup></p>
+      <br/>
+      <h2 style="color:#00FFFF;">Styling</h2>
+      <hr/>
+      <p style="color:blue;">This paragraph is styled</p>
+      <p style="color:white; background-color:red;">This is also styled</p>
+      <br/>
+      <!-- Headings can be linked as well -->
+      <a href="https://www.youtube.com"><h2>Links</h2></a>
+      <hr/>
+      <a href="https://www.google.com"><p>Google's Homepage</p></a>
+      <a href="https://www.google.com" target="_blank"><p>Google's Homepage in another window</p></a>
+      <a href="structure.html"><p>This is a link to <b>structure.html</b></p></a>
+      <a href="images/cat.jpg"><p>cat pic</p></a>
+      <br/>
+      <h2>Images</h2>
+      <hr/>
+      <img src="https://media.istockphoto.com/photos/very-closeup-view-of-amazing-domestic-pet-in-mirror-round-fashion-is-picture-id1281804798?b=1&k=20&m=1281804798&s=170667a&w=0&h=HIWbeaP_cQSngCz7l9t3xwyE2eyzVgIy3K6xIqPhJQA=" alt="A white cat with sunglasses."/>
+      <br/>
+      <img width="400" height="250" src="images/minion.jpg" alt="A minion wearing a suit with a red tie and holding up akimbo pistols."/>
+      <!-- Image will scale automatically if only width or height is defined -->
+      <br/>
+      <a href="https://www.youtube.com" target="_blank">
+         <img width="100" src="images/youtube_logo.png" alt="YouTube logo link."/>
+      </a>
+      <br/>
+      <h2>Videos and Youtube iFrames</h2>
+      <hr/>
+      <!-- Other attributes are "autoplay" and "loop" -->
+      <video width="560" height="315" src="videos/videvo_dock.mp4" poster="images/dock_poster.jpg" controls>Video displays a dock scene provided by Videvo.</video>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <br/>
+      <br/>
+      <h2>Lists</h2>
+      <hr/>
+      <p>Unordered List</p>
+      <ul>
+         <li>Apples</li>
+         <li>Oranges</li>
+         <li>Bananas</li>
+      </ul>
+      <p>Ordered List</p>
+      <!-- Types can be used to control the markers "A" "a" for lettered lists, "I" "i" for roman lists -->
+      <ol type="1">
+         <li>Step 1</li>
+         <li>Step 2</li>
+         <li>Step 3</li>
+      </ol>
+      <p>Description List</p>
+      <dl>
+         <dt>The Godfather</dt>
+         <dd>- Movie about the Italian mafia<dd>
+         <dt>Spirit</dt>
+         <dd>- Movie about wild horses<dd>
+         <dt>Atlantis</dt>
+         <dd>- Movie about the city of Atlantis<dd>
+      </dl>
+      <br/>
+      <h2>Tables</h2>
+      <hr/>
+      <table>
+         <thead>
+            <caption><h3>Truth Table (Or)</h3></caption>
+            <tr>
+               <th>input1</th>
+               <th>input2</th>
+               <th>output</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td>0</td>
+               <td>0</td>
+               <td>0</td>
+            </tr>
+            <tr>
+               <td>0</td>
+               <td>1</td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>0</td>
+               <td>1</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>1</td>
+               <td>1</td>
+            </tr>
+         </tbody>
+      </table>
+      <br/>
+      <h2>Divs & Spans</h2>
+      <hr/>
+      <p>Used to contain html elements so that it is easy to apply CSS styling to groups of elements</p>
+      <p>Inline elements take up as much space as needed to contain the contents and are grouped by spans</p>
+      <span>span1</span>
+      <span>span2</span>
+      <p>Block elements take up the entire width of the page and are grouped by divs</p>
+      <div>div1</div>
+      <div>div2</div>
+      <br/>
+      <h2>Input & Forms</h2>
+      <hr/>
+      <!-- Form tags are used to contain many types of input and are useful for sending data out -->
+      <form>
+         <p>Basic Text Input</p>
+         <input type="text" value="Enter your username"/>
+         <br/>
+         <p>Password Input</p>
+         <input type="password"/>
+         <br/>
+      </form>
+      <p>Date Input</p>
+      <input type="date"/>
+      <br/>
+      <p>Range Input</p>
+      <input type="range"/>
+      <br/>
+      <p>File Input</p>
+      <input type="file"/>
+      <br/>
+      <br/>
+      <p>Text Area</p>
+      <textarea rows="10" cols="30">Enter a paragraph</textarea>
+      <br/>
+      <p>For more input options check <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">here</a>.</p>
+      <br/>
+      <h2>iFrames</h2>
+      <hr/>
+      <iframe src="https://www.sharemyworks.com" width="1200" height="800" frameborder="0">Your browser does not support iFrames.</iframe>
+      <br/>
+      <h2>Meta Tags</h2>
+      <hr/>
+      <p>View the head of the html document</p>
+   </body>
+</html>
